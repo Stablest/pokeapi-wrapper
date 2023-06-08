@@ -2,10 +2,11 @@
   "name": "pokeapi-wrapper",
   "version": "1.0.0",
   "description": "",
-  "main": "app.ts",
+  "main": "src/server.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/app.ts",
+    "start": "node src/server.ts",
+    "dev": "nodemon src/server.ts",
     "tsc": "tsc"
   },
   "repository": {
