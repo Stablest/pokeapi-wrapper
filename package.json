@@ -1,0 +1,35 @@
+{
+  "name": "pokeapi-wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.ts",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stablest/pokeapi-wrapper.git"
+  },
+  "keywords": [
+    "pokeapi"
+  ],
+  "author": "Stablest",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stablest/pokeapi-wrapper/issues"
+  },
+  "homepage": "https://github.com/Stablest/pokeapi-wrapper#readme",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.2.5",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
