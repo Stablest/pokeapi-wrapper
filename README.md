@@ -1,3 +1,3 @@
-# pokeapi-wrapper
+# simpler-pokeapi
 
 // In development
